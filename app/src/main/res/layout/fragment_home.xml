@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce6ff"
+    tools:context=".ui.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:text="List Of Accounts"
+            android:textColor="@color/CustomDarkGray"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="23dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/purple_200"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="CASH"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textStyle="bold"
+                    android:id="@+id/cash"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="₹ 750"
+                    android:textStyle="bold"
+                    android:textColor="@color/CustomDarkGray"
+                    android:paddingBottom="10dp"
+                    android:textSize="20dp"
+                    android:layout_below="@id/cash"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/bottom_nav"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="SAVINGS"
+                    android:textStyle="bold"
+                    android:textColor="@color/CustomDarkGray"
+                    android:id="@+id/savings"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="₹ 750"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textSize="20dp"
+                    android:layout_below="@id/savings"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/orange"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="INVESTMENT"
+                    android:textStyle="bold"
+                    android:id="@+id/investment"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/CustomDarkGray"
+                    android:text="₹ 750"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:textSize="20dp"
+                    android:layout_below="@id/investment"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/bright_blue"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="PAYTM"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textStyle="bold"
+                    android:id="@+id/paytm"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="₹ 750"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textSize="20dp"
+                    android:layout_below="@id/paytm"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/demat"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="DEMAT"
+                    android:textStyle="bold"
+                    android:textColor="@color/CustomDarkGray"
+                    android:id="@+id/demat"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="₹ 750"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:textSize="20dp"
+                    android:layout_below="@id/demat"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:background="@drawable/account_card_view"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/crypto"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="CRYPTO"
+                    android:textStyle="bold"
+                    android:textColor="@color/CustomDarkGray"
+                    android:id="@+id/cypto"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="₹ 750"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/CustomDarkGray"
+                    android:textSize="20dp"
+                    android:layout_below="@id/cypto"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#444"/>
+        <TextView
+            android:textColor="@color/CustomDarkGray"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:text="Structure Analysis"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/pie_chart"
+            android:layout_height="300dp"/>
+
+    </LinearLayout>
+</ScrollView>

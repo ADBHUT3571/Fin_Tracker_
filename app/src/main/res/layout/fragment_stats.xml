@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cce6ff"
+    android:layout_height="match_parent"
+    tools:context=".ui.stats">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Total Stats"
+            android:textSize="30dp"
+            android:textColor="@color/CustomDarkGray"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#444"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Current Balance"
+            android:textSize="20dp"
+            android:textColor="@color/CustomDarkGray"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="₹ 60000"
+            android:textSize="35dp"
+            android:textColor="@color/CustomDarkGray"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#444"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Monthly Balance"
+            android:textColor="@color/CustomDarkGray"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/monthly_balance" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#444"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Investment In Current Month"
+            android:textColor="@color/CustomDarkGray"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/inve_month"
+            android:layout_height="300dp"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#444"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Monthly Analysis"
+            android:textColor="@color/CustomDarkGray"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/total_analysis"
+            android:layout_height="300dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

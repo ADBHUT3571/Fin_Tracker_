@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce6ff"
+    tools:context=".ui.wallets">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome,"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/user_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/welcome"
+            />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="230dp"
+        android:background="@drawable/card_shape_balance"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Balance"
+            android:textSize="28dp"
+            android:textColor="@color/CustomDarkGray"
+            android:paddingTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 200000"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:textSize="38dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:id="@+id/switch_account"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_shape"
+            android:text="Switch Account"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="230dp"
+        android:background="@drawable/card_shape_balance"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#008000"
+            android:text="Credit"
+            android:shadowColor="@color/purple_500"
+            android:textAlignment="center" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:background="@color/orange"
+            android:text="Debit"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:background="#7F38EC"
+            android:text="TRANSACTIONS"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</FrameLayout>

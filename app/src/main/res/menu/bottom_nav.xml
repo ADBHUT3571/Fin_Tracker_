@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="HOME"
+        android:id="@+id/home2"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="BUDGET"
+        android:id="@+id/budget"
+        android:icon="@drawable/ic_baseline_account_balance_24"/>
+    <item android:title="WALLET"
+        android:id="@+id/wallets"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"/>
+    <item android:title="STATS"
+        android:id="@+id/stats"
+        android:icon="@drawable/ic_baseline_query_stats_24"/>
+
+</menu>
